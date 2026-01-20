@@ -57,6 +57,7 @@ import removebgLogo from "./assets/work_logo/remove_bg.png";
 import codeReview from "./assets/code-review.jpg";
 import componentGenerator from "./assets/component-generator-image.png";
 import dictionaryApp from "./assets/Dictionary-image.png";
+import Doctor from "./assets/Doctor.png";
 import geminiChat from "./assets/Gemini-chat.png";
 import musicImage from "./assets/music-image.jpeg";
 import mysteryMessages from "./assets/mystery-message.png";
@@ -125,7 +126,7 @@ export const experiences = [
     role: "Fullstack Developer",
     company: "HeyFynix",
     date: "September 2025 - Present",
-    desc: "I am currently working as a Full Stack Developer Intern at HeyFynix, contributing to frontend and backend development using the MERN stack, Next.js, and TypeScript. I build interactive user interfaces with React.js and create efficient APIs with Node.js and Express.js, delivering scalable web applications.",
+    desc: "I completed a Full Stack Developer Internship at HeyFynix, where I contributed to both frontend and backend development using the MERN stack, Next.js, and TypeScript. I built interactive user interfaces with React.js and developed efficient, scalable APIs using Node.js and Express.js, delivering high-quality web applications.",
     skills: [
       "HTML",
       "CSS",
@@ -203,6 +204,28 @@ export const education = [
 export const projects = [
   {
     id: 0,
+    title: "Doctor Appointment App",
+    description:
+      "A full-stack Doctor Appointment app built with Next.js featuring role-based access for patients, doctors, and admins. Includes appointment booking, doctor availability management, credit-based payments, and an admin dashboard, built using Clerk, Prisma, Neon, Tailwind CSS, and shadcn/ui.",
+    image: Doctor,
+    tags: [
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "Next.js",
+      "Clerk",
+      "Neon",
+      "Prisma",
+      "Zod",
+      "React Hook Form",
+      "shadcn/ui",
+      "Tailwind CSS",
+    ],
+    github: "https://github.com/Aaditya88888/medimeet",
+    webapp: "https://medimeet-teal.vercel.app/",
+  },
+  {
+    id: 1,
     title: "Component Generator",
     description:
       "A MERN-based web application that generates custom components based on user input. Integrated with Gemini AI to dynamically create tailored components quickly and efficiently.",
@@ -222,7 +245,7 @@ export const projects = [
     webapp: "https://component-generator-frontend.onrender.com",
   },
   {
-    id: 1,
+    id: 2,
     title: "Mystery Messages",
     description:
       "A Next.js application that allows users to send messages anonymously. It uses NextAuth for secure authentication and Zod for input validation. React Hook Form and Shadcn UI make the interface user-friendly and responsive, while MongoDB ensures reliable message storage. Resend is integrated for seamless message delivery.",
@@ -245,7 +268,7 @@ export const projects = [
     webapp: "https://mystery-messages-lake.vercel.app/",
   },
   {
-    id: 2,
+    id: 3,
     title: "Gemini Chat",
     description:
       "A real-time chat application built with React JS and Tailwind CSS that allows users to interact with Gemini AI, similar to ChatGPT. Users can generate instant responses, making conversations smooth and dynamic. Integrated Gemini AI ensures accurate and context-aware replies in real time.",
@@ -262,7 +285,7 @@ export const projects = [
     webapp: "https://gemini-chat-kohl.vercel.app/",
   },
   {
-    id: 3,
+    id: 4,
     title: "Music School",
     description:
       "A modern web application built with Next.js and React.js to manage and showcase music courses. The interface is designed using Acertenity UI, providing a responsive and user-friendly experience for students and instructors. This project emphasizes clean design and smooth navigation for an engaging learning platform.",
@@ -280,7 +303,7 @@ export const projects = [
     webapp: "https://music-school-three-sigma.vercel.app/",
   },
   {
-    id: 4,
+    id: 5,
     title: "Code Reviewer",
     description:
       "A web application where users can write code and receive detailed feedback, including mistakes, improvements, and better approaches. Built with React JS and Express.js, it integrates Gemini AI to provide intelligent, context-aware code analysis.",
@@ -297,15 +320,5 @@ export const projects = [
     ],
     github: "https://github.com/Aaditya88888/Code-Review",
     webapp: "https://code-reviewer-frontend-70xs.onrender.com",
-  },
-  {
-    id: 5,
-    title: "Dictionary App",
-    description:
-      "A React JS application that allows users to find meanings, examples, and synonyms of any word. The app includes a pronunciation feature so users can listen to words. Built with Tailwind CSS for a clean and responsive user interface, it provides a smooth and interactive learning experience.",
-    image: dictionaryApp,
-    tags: ["HTML", "CSS", "JavaScript", "React JS", "Tailwind CSS"],
-    github: "https://github.com/Aaditya88888/Dictionary-App",
-    webapp: "https://dictionary-app-rho-lemon.vercel.app/",
   },
 ];
