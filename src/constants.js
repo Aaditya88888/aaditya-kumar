@@ -121,7 +121,30 @@ export const SkillsInfo = [
 
 export const experiences = [
   {
-    id: 0,
+    id: 1,
+    img: webverseLogo, // replace with your actual logo variable
+    role: "Software Development Engineer (SDE) Intern",
+    company: "Cehpoint (E-Learning & Cybersecurity Solutions)",
+    date: "February 2026 - Present", // adjust if needed
+    desc: "Working as a Software Development Engineer (SDE) Intern, contributing to full-stack and mobile application development. Building scalable web applications using Next.js and modern React patterns, developing backend services with Node.js and Laravel, and implementing Firebase integrations for real-time features. Collaborating on MERN stack projects and migrations to Next.js to improve performance and architecture.",
+    skills: [
+      "JavaScript",
+      "React.js",
+      "Next.js",
+      "Node.js",
+      "Express.js",
+      "MongoDB",
+      "Firebase",
+      "TypeScript",
+      "Laravel",
+      "React Native",
+      "Flutter",
+      "REST APIs",
+      "Git",
+    ],
+  },
+  {
+    id: 1,
     img: webverseLogo,
     role: "Fullstack Developer",
     company: "HeyFynix",

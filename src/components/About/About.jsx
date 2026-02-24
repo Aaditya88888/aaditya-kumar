@@ -41,8 +41,9 @@ const About = () => {
           </h3>
           {/* About Me Paragraph */}
           <p className="text-base sm:text-lg md:text-lg text-gray-400 mb-10 mt-8 leading-relaxed">
-            I’m a Full Stack Developer specializing in the MERN stack, creating
-            scalable web applications with seamless user experiences.
+            I’m a Software Development Engineer (SDE) Intern building scalable
+            web and mobile applications using modern JavaScript technologies
+            including React, Next.js, Node.js, and Firebase.
           </p>
           {/* Resume Button */}
           <a
