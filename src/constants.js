@@ -61,6 +61,7 @@ import Doctor from "./assets/Doctor.png";
 import geminiChat from "./assets/Gemini-chat.png";
 import musicImage from "./assets/music-image.jpeg";
 import mysteryMessages from "./assets/mystery-message.png";
+import videoInterviewPlatform from "./assets/video-interview-platform.png";
 
 export const SkillsInfo = [
   {
@@ -309,21 +310,24 @@ export const projects = [
   },
   {
     id: 4,
-    title: "Music School",
+    title: "Video Interview Platform",
     description:
-      "A modern web application built with Next.js and React.js to manage and showcase music courses. The interface is designed using Acertenity UI, providing a responsive and user-friendly experience for students and instructors. This project emphasizes clean design and smooth navigation for an engaging learning platform.",
-    image: musicImage,
+      "A real-time video interview platform built with MERN stack, featuring Clerk authentication, Stream video APIs, TanStack Query caching, and a responsive UI using DaisyUI.",
+    image: videoInterviewPlatform,
     tags: [
-      "HTML",
-      "CSS",
-      "JavaScript",
-      "Next.js",
-      "React JS",
+      "React.js",
+      "Node.js",
+      "Express.js",
+      "MongoDB",
+      "Clerk",
+      "Stream API",
+      "TanStack Query",
+      "Inngest",
+      "DaisyUI",
       "Tailwind CSS",
-      "Aceternity UI",
     ],
-    github: "https://github.com/Aaditya88888/music-school",
-    webapp: "https://music-school-three-sigma.vercel.app/",
+    github: "https://github.com/Aaditya88888/video-interview-platform",
+    webapp: "https://video-interview-platform-v02z.onrender.com/",
   },
   {
     id: 5,
